@@ -2,9 +2,9 @@
 
   ## - Executar no terminal:
 
-     yarn
+    yarn
 
-    Para instalar as depêndencias
+  Para instalar as depêndencias
 
   ## - Depois disso, executar:
 

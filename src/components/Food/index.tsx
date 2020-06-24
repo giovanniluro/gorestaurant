@@ -30,7 +30,7 @@ const Food: React.FC<IProps> = ({
   async function toggleAvailable(): Promise<void> {
     setIsAvailable(!food.available);
     food.available = !food.available;
-    await api.patch(`/foods/${food.id}`, food);
+    await api.put(`/foods/${food.id}`, food);
   }
 
   function setEditingFood(): void {
